@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+      margin: 0px;
+      padding: 0px;
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+      color: white;
+}
+
+nav div h1
+{
+      font-family:   "Ubuntu", sans-serif;
+      margin-left: 5px;
+      margin-top: 20px;
+      color: white;
+}
+
+.logodiv{
+      display: flex;
+      margin: 10px;
+}
+
+body{
+      background-color: #070F2B;
+}
+nav{
+      display: flex;
+      gap: 40%;
+      background-color: #1B1A55;
+}
+
+.linkdiv
+{
+      margin: 10px;
+      margin-top: 30px;
+}
+
+nav div a{
+      text-decoration: none;
+      color: white;
+      margin: 20px;
+      font-size: 1.3rem;
+      font-family: "Raleway", sans-serif;
+}
+
+nav div a:hover
+{
+      color: #9290C3;
+}
+.firstclass h2{
+      padding:20px ;
+      font-size: 1.4rem;
+      text-transform: capitalize;
+}
+.firstclass div{
+      padding: 20px;
+}
+.firstclass div img
+{
+      margin-left: 20px;
+      border-radius: 30px;
+      box-shadow: rgba(252, 244, 244, 0.24) 0px 3px 8px;
+      transition: transform 0.5s ease;
+}
+
+.firstclass div img:hover
+{
+      box-shadow: rgba(240, 236, 236, 0.753) 0px 3px 8px;
+      transform: scale(1.1);
+      animation-delay: 10s; 
+}
+
+.secondclass
+{
+      margin: 50px;
+}
+.secondclass h2
+{
+     padding-bottom: 30px;
+     text-transform: capitalize;
+}
+
+.secondclass img
+{
+      border-radius: 400px;
+      box-shadow: rgba(252, 244, 244, 0.24) 0px 3px 8px;
+      transition: transform 0.5s ease;
+}
+
+.secondclass img:hover
+{
+      box-shadow: rgba(240, 236, 236, 0.753) 0px 3px 8px;
+      transform: scale(1.1);
+      animation-delay: 10s; 
+}
+
+.secondclass div
+{
+      display: flex;
+      gap: 30px;
+}
+.secondclass div article header 
+{
+      font-size: 2rem;
+      margin-left:50px ;
+      color: #9290C3;
+}
+.secondclass div article p
+{
+      padding: 50px;
+}
+span
+{
+      text-transform: capitalize;
+      padding-left: 50px;
+      font-size: 3rem;
+      color: rgb(236, 236, 97);
+}
+.secondclass div article footer
+{
+      margin-left: 70%;
+      text-transform: capitalize;
+      color: rgb(236, 236, 97);
+      font-size: 1.2rem;
+}
+.thirdclass
+{
+      box-shadow: rgba(252, 244, 244, 0.24) 0px 3px 8px;
+      background-color: #000000;
+}
+.thirdclass ul
+{
+      display: flex;
+      justify-content: space-around;
+}
+
+.thirdclass ul li a
+{
+      text-decoration: none;
+}
+.thirdclass ul li
+{
+      list-style-type: none;
+
+}
+.thirdclass ul li a:hover
+{
+      color: rgb(204, 204, 37);
+}
+.fourthclass article header h2
+{
+      font-size: 1.7rem;
+      margin: 20px;
+      margin-top: 50px;
+      text-transform: capitalize;
+}
+.fourthclass article img
+{
+      margin: 20px;
+      border-radius: 30px;
+      box-shadow: rgba(252, 244, 244, 0.24) 0px 3px 8px;
+      transition: transform 0.5s ease;
+      
+}
+.fourthclass article div
+{
+      display: flex;
+}
+.fourthclass article img:hover
+{
+      box-shadow: rgba(240, 236, 236, 0.753) 0px 3px 8px;
+      transform: scale(1.1);
+      animation-delay: 10s; 
+}
+
+.card1
+{
+      margin: 100px;
+      background-color: #444477;
+      border-radius: 20px;
+}
+.card1 article header h2
+{
+      text-transform: capitalize;
+      font-size: 2rem;
+}
+.card1 article
+{
+      margin-top: 30px;
+      padding: 20px;
+}
+.card1 article p
+{
+      transition: transform 0.5s ease;
+      padding: 30px;
+      background-color: #1B1A55;
+      box-shadow: rgba(252, 244, 244, 0.24) 0px 3px 8px;
+      border-radius: 10px;
+}
+.pagefooter
+{
+      background-color: #000000;
+      margin-bottom:0px ;
+      
+}
+.pagefooter ul 
+{
+      display: flex;
+      justify-content: space-around;
+}
+.pagefooter div h3
+{
+      text-align: center;
+      margin-bottom: 0px;
+      color: rgb(219, 219, 87);
+}
+.pagefooter ul li 
+{
+      margin: 20px;
+}
+.pagefooter ul li a{
+text-decoration: none;
+
+}
+.card1 article p:hover
+{
+      box-shadow: rgba(240, 236, 236, 0.753) 0px 3px 8px;
+      transform: scale(1.1);
+      animation-delay: 10s;
+}
