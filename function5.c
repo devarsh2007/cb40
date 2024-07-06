@@ -7,8 +7,7 @@ float getarea(float b,float h)
 }
 
 void main()
-{
-      float b,h;
+{     float b,h;
       printf("enter base : ");
       scanf("%f",&b);
 
