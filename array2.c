@@ -20,6 +20,4 @@ void main()
             printf("%c",name[i]);
       }
 
-
-
 }
